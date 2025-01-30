@@ -42,7 +42,7 @@ fun Navigation(modifier: Modifier){
 
     val viewmodel : TodoViewmodel  = viewModel()
 
-    NavHost(navController = navcontroller, startDestination = Route.Insert,
+    NavHost(navController = navcontroller, startDestination = Route.Read,
         builder={
 
             composable(Route.Insert){
